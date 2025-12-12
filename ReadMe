@@ -1,0 +1,30 @@
+License
+This project is open source and available for educational purposes.
+Author
+Created by Ananya Kawley
+Description
+Job Manager is a simple tool that allows you to:
+
+Track multiple jobs with detailed information
+Record worker names, job categories, hours worked, and payment rates
+Store and retrieve job data using CSV files
+Calculate total earnings automatically
+
+Features
+
+Add Jobs: Create job entries with name, category, hours, rate, and date
+Save to File: Export all job data to a CSV file for persistent storage
+Load from File: Import previously saved job data from CSV files
+Data Validation: Ensures all job information is properly formatted
+Easy Testing: Includes comprehensive test suite for reliability
+
+Requirements
+
+Python 3.6 or higher
+pytest (for running tests)
+
+CSV File Format
+The CSV file follows this structure:
+name,category,hours,rate,date
+Alice,Cleaning,4,15,13/11/2025
+Bob,Gardening,5,20,14/11/2025

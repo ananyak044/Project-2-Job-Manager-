@@ -5,7 +5,7 @@ class Job:
     def __init__(self, name, category, rate, date, hours):
         #check if the value or rate and hours is positive
         if (rate<=0):
-            message = "invalid rate" 
+            message = "invalid rate"
             raise ValueError(message)
         elif (hours<=0) or (hours>6):
             message = "invalid hours"

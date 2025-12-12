@@ -88,7 +88,6 @@ def test_edit_jobs():
 
 
 def test_search_by_category():
-    #create a JobManager instance
     jm = JobManager()
     job = Job("Alice", "Cleaning", 15, "13/11/2025", 4)
     # add the job to JobManager

@@ -19,9 +19,8 @@ Data Validation: Ensures all job information is properly formatted
 Easy Testing: Includes comprehensive test suite for reliability
 
 Requirements
-
 Python 3.6 or higher
-pytest (for running tests)
+pytest
 
 CSV File Format
 The CSV file follows this structure:

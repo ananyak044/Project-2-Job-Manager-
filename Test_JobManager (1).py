@@ -129,8 +129,7 @@ def test_get_total_cost_per_name():
     jm.add_job(job1)
     jm.add_job(job2)
 
-    # expected total cost = (12*3) + (15*4) = 96
-    # check if expected total cost = result
+
     assert jm.get_total_cost_per_name(["Alice"]) == {"Alice": 96}
 
 def test_category_count_per_name():
